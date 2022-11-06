@@ -1,0 +1,40 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+     height: auto; 
+   transform: translate(-50%, -50%);
+    background-color: #dbf1c5;
+    border-radius: 10px;
+    box-shadow: 2px black;
+    font-family: "Patua One", bold;
+    font-size: larger;
+    width: 400px; 
+     /* margin-top: 30px;
+    padding-top: 10px; */
+  }
+  .person-logo
+  {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+  }
+  .user-name
+  {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+  }
+  .account
+  {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  .user-details
+  {
+    margin: 30px;
+  }
+

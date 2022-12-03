@@ -7,10 +7,9 @@
     "node": "18.12.1"
   },
   "scripts": {
-     "start": "node server.js",
-     "server":"node server.js",
-     "clint":"npm start --prefix clint",
-     "dev":"concurrently \"npm start \" \"npm run clint\" "
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

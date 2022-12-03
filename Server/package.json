@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "engines": {
-    "node": "18.12.1"
-  },
+ 
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node server.js"
+   "test": "echo \"No test specified\" && exit 1" 
   },
   "keywords": [],
   "author": "",

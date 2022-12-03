@@ -7,7 +7,10 @@
     "node": "18.12.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node server.js",
+     "server":"node server.js",
+     "clint":"npm start --prefix clint",
+     "dev":"concurrently \"npm start \" \"npm run clint\" "
   },
   "keywords": [],
   "author": "",

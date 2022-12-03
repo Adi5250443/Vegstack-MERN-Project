@@ -13,8 +13,14 @@ app.use(express.json());
 app.use(cookieparser());
 app.use(require('./routes/authentication'));
 
-// const PORT=process.env.PORT;
+if(process.env.NODE_ENV == "production")
+{
+    app.use(express.static("clint/build"));
+}
 
-app.listen(5000,()=>{
-    console.log("Server is running at port 5000");
+const PORT=process.env.PORT || 5000;
+app.listen(PORT,()=>{
+    console.log("Server is running at port $(PORT)");
 })
+
+

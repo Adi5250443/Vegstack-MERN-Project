@@ -1,0 +1,158 @@
+.navbar {
+  font-family: "OpenSans-Bold";
+  background-color: #f1f8ea;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.new
+{
+  position: relative;
+}
+.navbar h2 { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(114, 136, 15);
+  font-size: 35px;
+  width: 20%;
+}
+.navbar-list {
+  display: flex;
+  gap: 7rem;
+  list-style: none;
+  padding: 20px;
+  margin-left: 40px;
+}
+.mobile-nav-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.mobile-nav-icon {
+  opacity: 0;
+  visibility: hidden;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(3, 3, 3);
+  font-weight: bolder;
+  font-family: "OpenSans-Bold";
+  padding-left: 25px;
+
+}
+.navbar li a:hover {
+  color: rgb(90, 229, 107);
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 990px) 
+{
+  .navbar
+  {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  
+  }
+  .navbar h2
+  {
+    width: auto;
+    padding-right: 160px;
+  }
+  .navbar-list {
+
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    margin-left: 0px;
+  }
+  .mobile-nav
+  {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+  .mobile-nav-icon
+  {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    opacity: 1;
+  visibility: visible;
+  }
+.navbarresponsive
+{
+  display: block;
+  width: 100%;
+  background-color: #f1f8ea;
+  position: relative;
+  height: 275px;
+}
+.navbarresponsive h2 
+  {
+    font-size: 30px;
+   display:flex ;
+   align-items: center;
+   justify-content: center;
+   color:rgb(114, 136, 15);
+  }
+.navbarresponsive ul 
+{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbarresponsive ul li a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px; 
+  text-decoration: none;
+  font-size: 21px;
+  color: rgb(3, 3, 3);
+  font-weight: bolder;
+  font-family: "OpenSans-Bold";
+}
+.navbarresponsive li a:hover {
+  color: rgb(90, 229, 107);
+  border-radius: 6px;
+}
+}
+
+@media screen and (max-width: 680px)
+{
+  .navbar h2
+  {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .navbarresponsive h2 
+  {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  .navbar h2
+  {
+    font-size: 19px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 420px)
+{
+  .navbar h2
+  {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+} 

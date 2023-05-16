@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: auto;  
+  border-radius: 10px;
+  font-family: 'OpenSans-Bold';
+  font-size: larger;
+}
+.container h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  color: whitesmoke;
+}
+.logo2{
+  width: 30px;
+  height: 60px;
+  margin-left: 155px;
+  display: flex;
+}
+.gmail-logo
+{
+  margin-right: 8px;
+}
+.password-logo
+{
+  margin-right: 8px
+}
+.username {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login-password {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn button {
+  padding: 6px;
+  background-color: #62bb09;
+  font-family: "Patua One", cursive;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 50%;
+}
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+#email {
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  height: 35px;
+  border-bottom: 1px solid rgb(167, 238, 126);
+  
+}
+#password {
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: black;
+  background: transparent;
+  border: none;
+  height: 35px;
+  border-bottom: 1px solid rgb(167, 238, 126);
+  
+}
